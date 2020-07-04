@@ -9,7 +9,7 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>co.com.lineadirecta.servicios</groupId>
+	<groupId>com.despacho.servicios</groupId>
 	<artifactId>despacho-servicios</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>despacho-servicios</name>
@@ -21,12 +21,12 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>co.com.lineadirecta.logistica.despacho</groupId>
+			<groupId>com.despacho.negocio</groupId>
 			<artifactId>despacho-negocio</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>co.com.lineadirecta.soporte</groupId>
+			<groupId>com.despacho.soporte</groupId>
 			<artifactId>despacho-soporte</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
@@ -37,7 +37,7 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>

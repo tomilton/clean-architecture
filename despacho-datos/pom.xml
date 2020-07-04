@@ -9,7 +9,7 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>co.com.lineadirecta.datos</groupId>
+	<groupId>com.despacho.datos</groupId>
 	<artifactId>despacho-datos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>despacho-datos</name>
@@ -21,11 +21,11 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>co.com.lineadirecta.logistica.despacho</groupId>
+			<groupId>com.despacho.negocio</groupId>
 			<artifactId>despacho-negocio</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>

@@ -9,7 +9,7 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>co.com.lineadirecta.entidades</groupId>
+	<groupId>com.despacho.entidades</groupId>
 	<artifactId>despacho-entidades</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>despacho-entidades</name>
